@@ -1,0 +1,40 @@
+{
+  "baseUrl": "./",
+  "paths": {
+    "@assets/*": [
+      "public/assets/*"
+    ],
+    "@data/*": [
+      "public/data/*"
+    ],
+    "@/*": [
+      "src/*"
+    ]
+  },
+  "compilerOptions": {
+    "module": "commonjs",
+    "baseUrl": "./",
+    "outDir": "build",
+    "target": "es2015",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "lib": [
+      "esnext"
+    ],
+    "allowJs": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "noEmit": true,
+    "incremental": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve"
+  },
+  "include": [
+    "**.ts"
+  ],
+  "exclude": [
+    "./src"
+  ]
+}

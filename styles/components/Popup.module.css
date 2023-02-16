@@ -1,0 +1,45 @@
+.container {
+  width: 30%;
+  position: fixed;
+  top: 10%;
+  right: 4%;
+  z-index: 999;
+  border-radius: 0.8rem;
+  border: 1px solid var(--primary-brown);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 5px 5px 5px var(--primary-brown);
+}
+.bar {
+  background-color: var(--primary-brown-1);
+  width: 100%;
+  height: 2rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+  padding-right: 1rem;
+  border-bottom: 2px solid var(--primary-brown);
+  border-top-left-radius: 0.7rem;
+  border-top-right-radius: 0.7rem;
+}
+.dot {
+  background-color: var(--primary-brown-3);
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  border: 1px solid var(--primary-brown);
+}
+
+.messagebox {
+  width: 100%;
+  padding: 3rem 2rem 3rem 2rem;
+  margin: 0;
+  background-color: var(--primary-brown-2);
+  border-bottom-left-radius: 0.8rem;
+  border-bottom-right-radius: 0.8rem;
+  color: var(--primary-brown);
+  font-size: 1.4rem;
+  text-align: center;
+}

@@ -1,0 +1,35 @@
+.container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1em;
+  margin-top: 0.5em;
+  /* position: relative; */
+}
+.navigate {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1em;
+}
+.back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+}
+.previous,
+.next {
+  cursor: pointer;
+}
+.images {
+  object-fit: cover;
+  width: 100%;
+  max-width: 100%;
+}
+.iconContainer {
+  cursor: pointer;
+}

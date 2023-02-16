@@ -1,0 +1,29 @@
+.nav {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  padding: 2rem;
+  font-size: 1.4rem;
+  color: var(--primary-brown);
+}
+
+.nav > li {
+  text-align: center;
+  line-height: 1.5;
+  border-bottom: none;
+  cursor: pointer;
+}
+.borderBottom {
+  height: 2px;
+  width: 0;
+  background-color: var(--primary-brown);
+  transition: all 400ms;
+}
+.nav > li:hover .borderBottom {
+  width: 100%;
+}

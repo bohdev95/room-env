@@ -1,0 +1,72 @@
+{
+  "name": "backend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@google-cloud/storage": "^6.9.0",
+    "@reduxjs/toolkit": "^1.8.5",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/mongodb": "^4.0.7",
+    "@types/styled-components": "^5.1.26",
+    "@types/three": "^0.148.0",
+    "axios": "^1.2.4",
+    "bcrypt": "^5.1.0",
+    "formidable": "^2.1.1",
+    "formidable-serverless": "^1.1.1",
+    "mongodb": "^4.13.0",
+    "mongoose": "^6.8.2",
+    "next": "^13.1.1",
+    "next-auth": "^4.18.8",
+    "next-connect": "^0.13.0",
+    "parse-form": "^4.0.5",
+    "ray-tracing-renderer": "^0.10.15",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.7.1",
+    "react-redux": "^8.0.4",
+    "react-router-dom": "^6.6.0",
+    "react-scripts": "5.0.1",
+    "react-toastify": "^9.1.1",
+    "three": "^0.148.0",
+    "typescript": "^4.9.4",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "dev": "next dev",
+    "start-next": "NODE_ENV='local' next start",
+    "build": "next build --output public",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "backend": "npx ts-node index.ts"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "backend",
+  "main": "index.js",
+  "repository": "https://github.com/nebilarega/homekynd.git",
+  "author": "<tcarona@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/formidable": "^2.0.5"
+  }
+}

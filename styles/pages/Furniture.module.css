@@ -1,0 +1,29 @@
+.container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.layout {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--primary-brown);
+}
+.iconContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 1/1;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: var(--white);
+  transition: background-color 300ms;
+}
+.iconContainer:hover {
+  background-color: var(--primary-brown-1);
+}

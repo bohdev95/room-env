@@ -1,0 +1,70 @@
+.upcontainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.container {
+  position: absolute;
+  /* top: 40%; */
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  height: 90%;
+  z-index: 15;
+  display: flex;
+  flex-direction: column;
+}
+.preview {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.preview > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  -webkit-box-shadow: 0 0 20px #000;
+  box-shadow: 0 0 20px #000;
+}
+.filename {
+  background-color: var(--primary-brown-2);
+  color: var(--primary-brown);
+  text-align: center;
+  padding: 1rem;
+}
+.sbuttons {
+  position: fixed;
+  top: -200;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.stbuttons {
+  position: fixed;
+  width: 100%;
+  top: 94%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.stbuttons > input,
+.stbuttons > button {
+  width: 20%;
+  padding: 1rem;
+  color: var(--white);
+  font-size: 1.2rem;
+  background-color: var(--primary-brown-1);
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  transition: background-color 400ms;
+  opacity: 0.7;
+}
+.stbuttons > input:hover,
+.stbuttons > button:hover {
+  background-color: var(--primary-brown);
+}
